@@ -6,7 +6,11 @@ In the context of the Capstone project in the *Python for Everybody Specializati
 My applications are a suite of programs that serve to collect data of the United States Mainland *hiking trails* and *Peak Elevations by State*, provide the user with the ability to search for the *Top Ten* trails defined by the entry of coordinates and search distance parameters. My applications are designed to give the user the ability to collect data for the hikingproject.com API, store them in an SQLite Database, clean and index the database, perform basic calculations based on the data and finally provide an *interactive map visualization* of the data collected using *Bokeh*.
 
 <sup>Interactive Map</sup>
+
 ![ScreenShot](https://github.com/edeneault/pyfe_capstone_hikingtrails/blob/master/README-Visual_screenshot_loadup.PNG)
+
+<iframe src="https://github.com/edeneault/pyfe_capstone_hikingtrails/blob/master/README.assets/Hiking_project_dbvisual_4.html"></iframe>
+
 ### Prerequisites
 
 **Software:**
