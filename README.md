@@ -83,7 +83,7 @@ This program is an application that prompts the user to input COORDINATE values 
 
 This program is an interactive visualization of the US Mainland Hiking Trails.  The Hiking Trails are represented by *Dots* on the a map of the mainland US. The visualization displays the Highest Peak of each state upon mouse hover.  The trail Location *Dots* are hover sensitive, providing basic hiking trail information. The trail location *Dots* are also sensitive to *Tap/Click*. Clicking will direct the user to the trails specific URL on the Hikingproject.com website.
 
-<sup>Interactive Map</sup>
+<sup>Interactive Map - State Hover and Trail Hover</sup>
 ![ScreenShot](https://github.com/edeneault/pyfe_capstone_hikingtrails/blob/master/README.assets/Screenshot_hp_trail.png)
 
 
