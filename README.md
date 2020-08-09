@@ -60,7 +60,7 @@ For the scope of this project, I will not prepare installation instructions for 
 #### Data Collection
 *Hiking_project_trailscraper.py*  
 
-This program initiates a connection to the *hikingproject.com API*. The *hikingproject.com API* is open to everyone, just register for a free account and an API key is assigned automatically. The API is sent to you by email.  Easy beans!  The program calculates all of the coordinates points within the mainland US using the polygon boundaries as reference. Coordinates returned are in a list of tuples. The values are integer values. The program makes a GET request to the *hikingproject API*.  The API returns a maximum of 500 trails for a range of up to 200 miles from each point per request (max 200 requests per hour, max 800 request per day).  The program iterates through the json response, creates a SQLite database *trails.sqlite* and inserts the data.
+This program initiates a connection to the *hikingproject.com API*. The *hikingproject.com API* is open to everyone, just register for a free account and an API key is assigned automatically. The API key is sent to you by email.  Easy beans!  The program calculates all of the coordinates points within the mainland US using the polygon boundaries as reference. Coordinates returned are in a list of tuples. The values are integer values. The program makes a GET request to the *hikingproject API*.  The API returns a maximum of 500 trails for a range of up to 200 miles from each point per request (max 200 requests per hour, max 800 request per day).  The program iterates through the json response, creates a SQLite database *trails.sqlite* and inserts the data.
 
 #### Data Cleaning and Indexing
 *Hiking_project_dbmodel.py*  
