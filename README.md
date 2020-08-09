@@ -31,6 +31,11 @@ My project is a suite of programs that serve to collect data of the United State
 
 For the scope of this project, I will not prepare installation instructions for the dependencies.
 
+['api_key = 'your_api_key'']
+
+<!-- api_key = 'your_api_key'* will need to be changed to your own key to run the code. -->
+
+
   *Note: If you are using anaconda, it will make it easier to install the environment needed.  My development environment for this project is on windows 10, the dependencies were somewhat difficult to install.  Geopandas and bokeh gave me a bit of a struggle but all the information you need is easily googled. Knowledge of basic command line is helpful.*  
 
 ### Contents and Details
