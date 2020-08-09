@@ -6,7 +6,6 @@ In the context of a Capstone project for the *Python for Everybody Specializatio
 My project is a suite of programs that serve to collect data of the United States Mainland *hiking trails* and *Peak Elevations by State*, provide the user with the ability to search for the *Top Ten* trails defined by the entry of coordinates and search distance parameters. My programs are designed to give the user the ability to collect data for the hikingproject.com API, store them in an SQLite Database, clean and index the database, perform basic calculations based on the data and finally provide an *interactive map visualization* of the data collected using *Bokeh*.
 
 <sup>Interactive Map</sup>
-
 ![ScreenShot](https://github.com/edeneault/pyfe_capstone_hikingtrails/blob/master/README-Visual_screenshot_loadup.PNG)
 
 <iframe src="/assets/img/Bokeh/flowers.html"
@@ -84,6 +83,11 @@ This program is an application that prompts the user to input COORDINATE values 
 
 This program is an interactive visualization of the US Mainland Hiking Trails.  The Hiking Trails are represented by *Dots* on the a map of the mainland US. The visualization displays the Highest Peak of each state upon mouse hover.  The trail Location *Dots* are hover sensitive, providing basic hiking trail information. The trail location *Dots* are also sensitive to *Tap/Click*. Clicking will direct the user to the trails specific URL on the Hikingproject.com website.
 
+<sup>Interactive Map</sup>
+![ScreenShot](https://github.com/edeneault/pyfe_capstone_hikingtrails/blob/master/README.assets/Screenshot_hp_trail.JPG)
+
+
+
 #### Additional Files/Folders
 * *visualpass.py* is a program to pass through a function with the Bokeh visualization to the Hiking_project_API.py program.
 * *Data* folder contains the data files needed in Bokeh to draw the map and provide data for the highest elevations by state.
@@ -91,7 +95,7 @@ This program is an interactive visualization of the US Mainland Hiking Trails.  
 
 #### Additional Notes
 
-On a personal note, this project was very educational for me.  I enjoyed working on it and learning how to solve the inevitable problems that come up in the process.  Every small measure of success bolstered my resolve to complete it as best as my newfound knowledge would allowed.  
+On a personal note, this project was very educational.   I enjoyed working on it and learning how to solve the inevitable problems that come up in the process.  Every small measure of success bolstered my resolve to complete it as best as my newfound knowledge would allowed.  
 Certainly, in a larger scope of project, there are many areas that could be developed further, structured in a more elegant and economical manner.
 The code is available to download, if anyone wishes to make contributions, improvements, recommendations or any comment, I look forward to read/reply.
 
