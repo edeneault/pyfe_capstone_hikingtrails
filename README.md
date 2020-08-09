@@ -119,6 +119,13 @@ The following step-by-step was very instructive to learn how to use bokeh, thank
 
 * Reference: https://towardsdatascience.com/walkthrough-mapping-basics-with-bokeh-and-geopandas-in-python-43f40aa5b7e9
 
+* Data: API - https://www.hikingproject.com/data
+
+* Data: cb_2018_us_state_20m.sgv https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html
+
+* Data: https://www.infoplease.com/us/geography/highest-lowest-and-mean-elevations-united-states
+
+
 ##### License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
