@@ -9,7 +9,7 @@ My applications are a suite of programs that serve to collect data of the United
 
 ![ScreenShot](https://github.com/edeneault/pyfe_capstone_hikingtrails/blob/master/README-Visual_screenshot_loadup.PNG)
 
-<iframe src="https://github.com/edeneault/pyfe_capstone_hikingtrails/blob/master/README.assets/Hiking_project_dbvisual_4.html"></iframe>
+
 ```html
 <iframe src="/Hiking_project_dbvisual_4.html"
     sandbox="allow-same-origin allow-scripts"
