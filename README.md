@@ -74,6 +74,7 @@ This program is to analyze the data collected.  A few self-posed questions and a
 
 #### Mini Application
 *Hiking_project_API.py*
+
 *Hiking_project_API_novisual.py*
 
 This program is an application that prompts the user to input COORDINATE values and SEARCH AREA RANGE values, checks that the coordinates are within the US Boundary Box, and makes a GET request to the *hikingproject.com API*.  The API responds with the TOP 10 hiking trails in the SEARCH AREA requested. The trails are displayed to the user.  The user is then prompted to know if they would like to see a interactive visualization of the database they have searched. The visualization is built with *Bokeh*.
