@@ -92,7 +92,7 @@ This program is an interactive visualization of the US Mainland Hiking Trails.  
 #### Additional Files/Folders
 * *visualpass.py* is a program to pass through a function with the Bokeh visualization to the Hiking_project_API.py program.
 * *Data* folder contains the data files needed in Bokeh to draw the map and provide data for the highest elevations by state.
-* *Index* folder contains *trails.sqlite* and *index.sqlite*.
+* *SQL_data* folder contains *trails.sqlite* and *index.sqlite*.
 
 #### Additional Notes
 
