@@ -6,15 +6,15 @@ In the context of the Capstone project in the *Python for Everybody Specializati
 My applications are a suite of programs that serve to collect data of the United States Mainland *hiking trails* and *Peak Elevations by State*, provide the user with the ability to search for the *Top Ten* trails defined by the entry of coordinates and search distance parameters. My applications are designed to give the user the ability to collect data for the hikingproject.com API, store them in an SQLite Database, clean and index the database, perform basic calculations based on the data and finally provide an *interactive map visualization* of the data collected using *Bokeh*.
 
 <sup>Interactive Map</sup>
-<iframe img alt="README-Hiking_project_dbvisual_4.html" src="README.assets/README-Hiking_project_dbvisual_4.html" width="" height=""></iframe>
-<iframe src="/assets/img/Bokeh/flowers.html"
+<iframe src="/README.assets/README-Hiking_project_dbvisual_4.html" width="" height=""></iframe>
+<!-- <iframe src="/assets/img/Bokeh/flowers.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
     height="500"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
-</iframe>
+</iframe> -->
 
 
 
