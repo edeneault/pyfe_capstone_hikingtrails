@@ -9,18 +9,7 @@ My project is a suite of programs that serve to collect data of the United State
 ![ScreenShot](https://github.com/edeneault/pyfe_capstone_hikingtrails/blob/master/README-Visual_screenshot_loadup.PNG)
 
 
-
-
-
-<iframe src="/docs/Hiking_project_dbvisual_4.html"
-sandbox="allow-same-origin allow-scripts"
-width="100%"
-height="500"
-scrolling="no"
-seamless="seamless"
-frameborder="0">
-</iframe>
-
+[View visualization here](https://edeneault.github.io/pyfe_capstone_hikingtrails/Hiking_project_dbvisual_4.html)
 
 
 ### Prerequisites
