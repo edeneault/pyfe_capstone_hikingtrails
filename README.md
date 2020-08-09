@@ -65,7 +65,7 @@ This program initiates a connection to the *hikingproject.com API*. The *hikingp
 #### Data Cleaning and Indexing
 *Hiking_project_dbmodel.py*  
 
-This program is cleans and indexes the data to a new database *index.sqlite*. The new database is free of the unnecessary data and creates an index for columns with repeating data.  
+This program cleans and indexes the data to a new database *index.sqlite*. The new database is free of the unnecessary data and creates an index for columns with repeating data.  
 
 #### Data Analysis
 *Hiking_project_basic.py*
