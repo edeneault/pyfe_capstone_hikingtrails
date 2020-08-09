@@ -8,7 +8,7 @@ My project is a suite of programs that serve to collect data of the United State
 <sup>Interactive Map</sup>
 ![ScreenShot](https://github.com/edeneault/pyfe_capstone_hikingtrails/blob/master/README-Visual_screenshot_loadup.PNG)
 
-
+<div>
 <iframe src="/docs/Hiking_project_dbvisual_4.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
@@ -17,7 +17,7 @@ My project is a suite of programs that serve to collect data of the United State
     seamless="seamless"
     frameborder="0">
 </iframe>
-
+</div>
 
 ### Prerequisites
 
