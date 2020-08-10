@@ -1,9 +1,9 @@
 # Capstone Project - University of Michigan - Coursera PYFE Specialization
 ## US Hiking Trails and Peak Elevations - Interactive Visualization with Maps using Bokeh
 
-In the context of a Capstone project for the *Python for Everybody Specialization*, this project is a practical application of the technologies learned through the specialization content. The project parameters prescribed are to design and create your own applications for data retrieval, processing, and visualization.
+Designed as a Capstone project for the *Python for Everybody Specialization* course series, this project sought to create an applications for data retrieval, processing, and visualization that highlighted many of the techniques and programing strategies learned throughout these courses.  Specifically, this project developed a suite of programs to collect data on *United States Mainland hiking trails* and *Peak Elevations by State*.
 
-My project is a suite of programs that serve to collect data of the United States Mainland *hiking trails* and *Peak Elevations by State*, provide the user with the ability to search for the *Top Ten* trails defined by the entry of coordinates and search distance parameters. My programs are designed to give the user the ability to collect data for the hikingproject.com API, store them in an SQLite Database, clean and index the database, perform basic calculations based on the data and finally provide an *interactive map visualization* of the data collected using *Bokeh*.
+This suite of programs enables users to search for *Top Ten* trails as user-defined coordinates and distance parameters. These programs collect data from the *hikingproject.com* API, store them in an SQLite Database, clean and index the database, perform a basic analysis of the data , and provide an *interactive visualization map* of the data collected using *Bokeh*.
 
 <sup>Interactive Map</sup>
 ![ScreenShot](https://github.com/edeneault/pyfe_capstone_hikingtrails/blob/master/README.assets/README-Visual_screenshot_loadup.PNG)
@@ -60,17 +60,17 @@ For the scope of this project, I will not prepare installation instructions for 
 #### Data Collection
 *Hiking_project_trailscraper.py*  
 
-This program initiates a connection to the *hikingproject.com API*. The *hikingproject.com API* is open to everyone, just register for a free account and an API key is assigned automatically. The API key is sent to you by email.  Easy beans!  The program calculates all of the coordinates points within the mainland US using the polygon boundaries as reference. Coordinates returned are in a list of tuples. The values are integer values. The program makes a GET request to the *hikingproject API*.  The API returns a maximum of 500 trails for a range of up to 200 miles from each point per request (max 200 requests per hour, max 800 request per day).  The program iterates through the json response, creates a SQLite database *trails.sqlite* and inserts the data.
+This program initiates a connection to the *hikingproject.com API*. The *hikingproject.com API* is open to everyone, just register for a free account and an API key is assigned automatically. The API key is sent to you by email.  Easy beans!  The program calculates all of the coordinate points within the mainland US using the polygon boundaries as reference. Coordinates returned are in a list of tuples. The values are integer values. The program makes a GET request to the *hikingproject API*.  The API returns a maximum of 500 trails for a range of up to 200 miles from each point per request (max 200 requests per hour, max 800 request per day).  The program iterates through the json response, creates a SQLite database *trails.sqlite* and inserts the data.
 
 #### Data Cleaning and Indexing
 *Hiking_project_dbmodel.py*  
 
-This program cleans and indexes the data to a new database *index.sqlite*. The new database is free of the unnecessary data and creates an index for columns with repeating data.  
+This program cleans and indexes the data to a new database, data file: *index.sqlite*. The new database is free of the unnecessary data and creates an index for columns with repeating data.  
 
 #### Data Analysis
 *Hiking_project_basic.py*
 
-This program is to analyze the data collected.  A few self-posed questions and answers with the use of the data. This section could be developed much further in the scope of a larger project.
+This program is to analyze the data collected.  A few data points are identified using the data. This section could be developed much further in the scope of a larger project.
 
 #### Mini Application
 *Hiking_project_API.py*
@@ -96,6 +96,8 @@ This program is an interactive visualization of the US Mainland Hiking Trails.  
 
 #### Additional Notes
 
+* disclosure:  the database file *trail.sqlite* has  currently collected approximately 15000 of the US trails.  
+
 On a personal note, this project was very educational.   I enjoyed working on it and learning how to solve the inevitable problems that come up in the process.  Every small measure of success bolstered my resolve to complete it as best as my newfound knowledge would allowed.  
 Certainly, in a larger scope of project, there are many areas that could be developed further, structured in a more elegant and economical manner.
 The code is available to download, if anyone wishes to make contributions, improvements, recommendations or any comment, I look forward to read/reply.
@@ -115,7 +117,7 @@ https://medium.com/@will.carter/the-hiking-project-cli-812b486332f
 The original inspiration for my project was another project from a student who built a CLI app using the hikingproject API, my curiosity was peaked as I am an avid hiker/backpacker. Thank you *Will Carter* for the inspiration.
 * Reference: Walkthrough: Mapping Basics with bokeh and GeoPandas in Python by Rebecca Weng
 https://towardsdatascience.com/walkthrough-mapping-basics-with-bokeh-and-geopandas-in-python-43f40aa5b7e9
-The following step-by-step was very instructive to learn how to use bokeh, thank you *Rebecca Weng*.
+This step-by-step was very instructive to learn how to use bokeh, thank you *Rebecca Weng*.
 
 * Reference: https://towardsdatascience.com/walkthrough-mapping-basics-with-bokeh-and-geopandas-in-python-43f40aa5b7e9
 
