@@ -1,11 +1,6 @@
 ################################################################################
 #                   #### Hiking_project_basic.py #####                         #
 #                 #### written by: Etienne Deneault #####                      #
-#    In the context of a Capstone project in the Pyfe Specialization.          #
-#    This program is a program that request the user to input COORDINATES      #
-#    and SEARCH AREA RANGE and returns the TOP 10 hiking trails in the         #
-#    SEARRC AREA.The program also produces a interative data visualization     #
-#    The program also produces a interative data visualization using Bokeh.    #
 ################################################################################
 import json
 import requests

@@ -1,14 +1,6 @@
 ################################################################################
 #                  #### Hiking_project_dbvisual.py #####                       #
 #                 #### written by: Etienne Deneault #####                      #
-#  In the contect of the Coursera Capstone project in the Python for Evenybody #
-#  Specialization provided by the University of Michigan.  This program is an  #
-#  interactive visualization of the US Mainland Hiking Trails.  The Hiking     #
-#  Trails are represented by coordinate points.  The visualization displays    #
-#  the Highest Peak of each state upon mouse hover.  The trail Location Points #
-#  are hover sensitive, providing basic hiking trail information.              #
-#  The trail locartion Points are also sensitive to  tap/click. Clicking       #
-#  will send the user to the trail URL on the Hikingproject.com website.       #
 ################################################################################
 
 # Environment dependencies

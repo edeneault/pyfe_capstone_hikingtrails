@@ -1,12 +1,6 @@
 ################################################################################
 #                   #### Hiking_project_dmodel.py #####                        #
 #                 #### written by: Etienne Deneault #####                      #
-#    In the context of a Capstone project in the Pyfe Specialization.          #
-#    This program is meant to clean and index the data to a new database.      #
-#    The new database is cleaned of the columns of unnecessary columns and     #
-#    creates an index for columns with repeating data.  Surely, it could be    #
-#    compressed further and will likely need to be, given the quantity of data #
-#    that the scraper program retrieves.                                       #
 ################################################################################
 
 import sqlite3

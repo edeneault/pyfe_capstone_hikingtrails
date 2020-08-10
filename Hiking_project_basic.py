@@ -1,11 +1,6 @@
 ################################################################################
 #                   #### Hiking_project_basic.py #####                         #
 #                 #### written by: Etienne Deneault #####                      #
-#    In the contect of the Capstone project in the Python for Evenybody        #
-#    Specialization. This program is meant to analyze the data somewhat        #
-#    superficially, and find answers to some self posed questions.             #
-#    I thought of many more who could be answered with some more development   #
-#    time.                                                                     #
 ################################################################################
 
 import sqlite3

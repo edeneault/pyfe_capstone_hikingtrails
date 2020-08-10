@@ -1,8 +1,6 @@
 ################################################################################
 #                   #### visualpass.py #####                                   #
 #                 #### written by: Etienne Deneault #####                      #
-#    Program to construct visualization as a Function, called in the           #
-#    Hiking_project_API.py program.                                            #
 ################################################################################
 
 import json

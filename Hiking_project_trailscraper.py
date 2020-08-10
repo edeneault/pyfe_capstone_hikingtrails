@@ -1,19 +1,6 @@
 ################################################################################
 #                  #### Hiking_project_trailsraper.py #####                    #
 #                 #### written by: Etienne Deneault #####                      #
-#  In the context of the Coursera Capstone project in the Python for Evenybody #
-#  Specialization provided by the University of Michigan.  This program        #
-#  connects to the Hikingproject.com API. The Hikingproject.com API is open to #
-#  everyone, just register for a free account and an API key is assigned       #
-#  automatically. It is also sent to you by email.  Easy beans!  The program   #
-#  calculates all of the coordinates points within the mainland US using       #
-#  the polygon boundaries as reference. Coordinates are integer values         #
-#  (approx 69 miles per degree). The program makes a get request to the        #
-#  Hikingproject API for a return of a maximum of 500 trails for a range of up #
-#  to 200 miles from each point per request (max 200 requests per hour, max    #
-#  800 request per day).  The program iterates through the json response,      #
-#  creates the necessary table and retrieves the data with SQLite.             #
-#  Crawling acheives large results quicklyis if maximum paramteres are entered.#
 ################################################################################
 
 # Environment-import
