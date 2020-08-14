@@ -1,7 +1,7 @@
 # Capstone Project - University of Michigan - Coursera PYFE Specialization
 ## US Hiking Trails and Peak Elevations - Interactive Visualization with Maps using Bokeh
 
-Designed as a Capstone project for the *Python for Everybody Specialization* course series, this project sought to create an applications for data retrieval, processing, and visualization that highlighted many of the techniques and programming strategies learned throughout these courses.  Specifically, this project developed a suite of programs to collect data on *United States Mainland hiking trails* and *Peak Elevations by State*.
+Designed as a Capstone project for the *Python for Everybody Specialization* course series, this project sought to create a series of applications for data retrieval, processing, and visualization that highlighted many of the techniques and programming strategies learned throughout these courses.  Specifically, this project developed a suite of programs to collect data on *United States Mainland hiking trails* and *Peak Elevations by State*.
 
 This suite of programs enables users to search for *Top Ten* trails as user-defined coordinates and distance parameters. These programs collect data from the *hikingproject.com* API, store them in an SQLite Database, clean and index the database, perform a basic analysis of the data , and provide an *interactive visualization map* of the data collected using *Bokeh*.
 
